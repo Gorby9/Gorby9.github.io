@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <!-- link in my javascript -->
+        <script src="js/myscripts.js"></script>
+
+        <!-- link in my style sheet -->
+        <link href="styles.css" rel="stylesheet">
+
+        <title>PLS Guide</title>
+    </head>
+
+    <body>
+      <div id="hero-image-page2" class="hero-image">
+
+        <div class="navbar-container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-navbar-custom">
+            <span class="navbar-brand ml-navbar-custom mb-0 h1">PLS Guide</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mr-navbar-custom justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav nav-pills">
+                <!-- for now I'll get rid of screen-reader stuff <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+                <a class="nav-item nav-link" href="index.html" style="color: black">Home</a>
+                <a class="nav-item nav-link" href="page1.html" style="color: black">About PLS</a>
+                <a class="nav-item nav-link active" href="page2.html" style="background-color:#5887b7">Research</a>
+                <a class="nav-item nav-link" href="page3.html" style="color: black">Tips</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div id ="animation-container">
+          <div id ="wheelchair-animation"><img src="images/humans.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"></div>
+        </div>
+        <button onclick="myMove()" style="margin-left:25%">Push Me</button>
+
+        <div class="hero-text">
+          <p><b>Research</b></p>
+        </div>
+
+        <div class="container-flex" style="padding-top:20px; padding-bottom:40px; margin-left: 10%; margin-right: 10%;">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3">
+
+            <div class="col">
+              <div class="card shadow-sm" style="margin-bottom: 40px;">
+                <div class="card-body" >
+                  <img src="images/alspaths.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+                  <a href="https://www.mdpi.com/2075-4426/10/3/101#">Molecular and Cellular Mechanisms Affected in ALS</a>
+                  <p></p>
+                  <p class="card-text">PLS research is limited by the rarity of the disease, variety of patient phenotypes, and lack of biomarkers.
+                    Our best hope is that advancements in understanding and treating amyotrophic lateral sclerosis (ALS), may eventually benefit PLS as well.
+                    In fact, researchers now believe that ALS may represent distinct diseases each with different pathways leading to motor neuron degeneration. For information
+                    about current ALS research visit:
+                    <a href="https://www.als.net/">ALS TDI</a>,
+                    <a href="https://www.answerals.org/">Answer ALS</a>,
+                    <a href="https://neals.org/">NEALS</a>, or
+                    <a href="https://targetals.org">Target ALS</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm" style="margin-bottom: 40px;">
+                <div class="card-body">
+                  <img src="images/survey.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+                  <a href="https://www.tandfonline.com/doi/abs/10.1080/21678421.2022.2161912">Primary Lateral Sclerosis Natural History Study</a>
+                  <p></p>
+                  <p class="card-text">A 30-site, 24-month study, funded by multiple sources, is currently underway to measure clinical and biological data from fifty PLS patients.
+                    The study divides participants into two groups: early-stage (less than 4 years) and well-established (4-15 years) cases of PLS.
+                    The goal is to gain a clearer understanding of the natural progression of the disease, which could help facilitate PLS clinical trials in the future.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <a href="https://labs.feinberg.northwestern.edu/ozdinler/"><img src="images/ozdinler-cropped2.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">Ozdinler Lab</a>
+                  <p></p>
+                  <p class="card-text">Dr. Hande Ozdinler leads a team at Northwest University investigating the underlying causes of upper motor neuron vulnerability.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- rows -->
+        </div> <!-- container-flex -->
+     </div>
+
+    <p class="footer">
+      Images by
+      <a href="https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7047266">Chen,</a>
+      <a href="https://pixabay.com/users/u_z81liwoe-12448583/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4193437">Tinalill Hansen,</a>
+      and <a href="https://pixabay.com/users/andibreit-2748383/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1594962">Andreas Breitling</a>
+      from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7047266">Pixabay.</a>
+    </p>
+  </body>
+</html>

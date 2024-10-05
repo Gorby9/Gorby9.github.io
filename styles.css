@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-container {
+  padding-top: 2vh;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+
+.bg-navbar-custom {
+  background-color: #ccd1d4;
+}
+
+.ml-navbar-custom {
+  margin-left: 30%;
+}
+
+.mr-navbar-custom {
+  margin-right: 30%;
+}
+
+.hero-image {
+  height: 64vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.hero-text {
+  margin-top: 5%;
+  color: white;
+  background: #1a1e29;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#hero-image-home {
+  background-image: url("images/synapse.jpg");
+}
+
+#hero-image-page1 {
+  background-image: url("images/neurons-page1.jpg");
+}
+
+#hero-image-page2 {
+  background-image: url("images/neurons-page2b.jpg");
+}
+
+#hero-image-page3 {
+  background-image: url("images/neurons-page3.jpg");
+}
+
+.roundbutton {
+  width: 100%;
+  height: 100%;
+  preserveAspectRatio: xMidYMid slice;
+  border-radius: 50%;
+  border: 2px solid #1a1e29;
+  margin-bottom: 5px;
+ }
+
+.roundbutton-text {
+  width: fit-content;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0%;
+  bottom: 0;
+  width: 100%;
+  background-color: #ccd1d4;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 0%;
+  font-size: smaller;
+}
+
+#animation-container {
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+  height: 15%;
+  position: relative;
+  background: #255380;
+}
+
+#wheelchair-animation {
+  height: 100%;
+  position: absolute;
+  background: #255380;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .hero-text {font-size: 40px;}
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .hero-text {font-size: 40px;}
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero-text {font-size: 40px;}
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hero-text {font-size: 50px;}
+}
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .hero-text {font-size: 50px;}
+}
